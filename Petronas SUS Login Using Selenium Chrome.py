@@ -18,7 +18,7 @@ import re
 import time
 from itertools import zip_longest
 
-driver = webdriver.Chrome('C:\chromedriver.exe')
+driver = webdriver.Chrome(r'C:\chromedriver.exe')
 username = input('Please key in username')
 password = input('Please key in password')
 
